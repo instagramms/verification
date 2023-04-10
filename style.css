@@ -252,6 +252,10 @@ footer.footer .footer-flex a:hover{
     footer.footer .footer-flex a{
         font-size: 11px;
     }
+    .accept{
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 /**media styles end**/
 
