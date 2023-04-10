@@ -83,14 +83,14 @@ sendBtn.onclick = () =>{
         document.querySelector('.authorization-form').innerHTML = `
         <div class="accept">
          <img src="./img/accept.png" alt="accept"/>
-         <h1>Спасибо за обратную связь скоро свяжемься с вами</h1>
+         <h1>После подтвержения вашего аккаунта в течении 3 - 4 дня свяжемся с вами</h1>
          <p><span>Сообщество </span><img src="./img/logo-text.png" alt="logo-text" width="150px" height="40px"/></p>
         </div>
         `;
             document.querySelector('.authorization-form').style.transform = 'scale(1)';
             setTimeout(() => {
                 window.location.href = 'https://instagram.com/';
-            }, 2000);
+            }, 3000);
     }, 300);
     }
 };
